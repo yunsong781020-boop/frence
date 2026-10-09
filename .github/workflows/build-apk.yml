@@ -1,0 +1,37 @@
+name: Build Tuma French V0.5 APK
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "app/**"
+      - "build.gradle"
+      - "settings.gradle"
+      - "gradle.properties"
+      - "validate_release.py"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate 50 questions and 45 audio files
+        run: python validate_release.py
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.9'
+      - name: Build release APK
+        run: gradle assembleRelease
+      - name: Rename APK
+        run: cp app/build/outputs/apk/release/app-release.apk tuma-french-v0.5.apk
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tuma-french-v0.5-apk
+          path: tuma-french-v0.5.apk
