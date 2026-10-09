@@ -1,0 +1,39 @@
+name: Generate V0.5 French Audio
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install audio generator
+        run: |
+          python -m pip install --upgrade pip
+          pip install openai
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate 45 high-quality French audio files
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python generate_audio_v05.py
+
+      - name: Validate generated audio
+        run: python validate_release.py
+
+      - name: Commit generated audio
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/src/main/assets/audio/
+          git commit -m "Generate V0.5 French audio" || exit 0
+          git push
