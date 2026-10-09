@@ -1,0 +1,1598 @@
+[
+  {
+    "id": 1,
+    "level": "M+",
+    "theme": "预约",
+    "type": "时间变化",
+    "question": "À quelle heure aura finalement lieu le rendez-vous ?",
+    "text": "Bonjour madame. Votre rendez-vous était prévu à dix heures, mais le médecin doit assister à une réunion imprévue. Nous pouvons vous recevoir à onze heures quinze.",
+    "options": [
+      "À 9 h 45.",
+      "À 10 h.",
+      "À 11 h 15.",
+      "À midi."
+    ],
+    "answer": 2,
+    "analysis": "典型的时间变化题。题干问最终时间，必须区分原计划与修改后的安排。",
+    "key": [
+      "était prévu à dix heures = 原计划，是强干扰。",
+      "mais = 信息发生转折。",
+      "nous pouvons vous recevoir à onze heures quinze = 最终安排。"
+    ],
+    "correctWhy": "C 正确。十点只是原预约时间，真正确认的新时间是十一点十五分。",
+    "distractors": [
+      "B 直接复述原时间，是最强诱导项。",
+      "A 和 D 都没有原文依据。"
+    ],
+    "mistakeMap": {
+      "0": "数字信息加工错误",
+      "1": "停留在原计划",
+      "3": "无依据推断"
+    },
+    "tip": "时间题遇到 mais、finalement、désormais、au lieu de 时，重点记最后确认的信息。"
+  },
+  {
+    "id": 2,
+    "level": "M+",
+    "theme": "购物",
+    "type": "目的",
+    "question": "Pourquoi la cliente appelle-t-elle ?",
+    "text": "Bonjour, j’ai reçu ma commande ce matin. Tout est en bon état, mais il manque la ceinture qui devait être livrée avec le manteau. Je voudrais savoir si vous pouvez me l’envoyer séparément.",
+    "options": [
+      "Pour retourner le manteau.",
+      "Pour signaler un article manquant.",
+      "Pour changer la taille du manteau.",
+      "Pour annuler la commande."
+    ],
+    "answer": 1,
+    "analysis": "售后场景目的题。要抓住真正的问题，而不是被‘收到订单’这个背景带偏。",
+    "key": [
+      "Tout est en bon état 排除了质量问题。",
+      "mais il manque la ceinture 是核心问题。",
+      "me l’envoyer séparément 表明她希望补发。"
+    ],
+    "correctWhy": "B 正确。她联系商家是因为包裹里缺少腰带。",
+    "distractors": [
+      "A、C、D 都是购物售后常见动作，但原文没有提出。"
+    ],
+    "mistakeMap": {
+      "0": "被场景预期误导",
+      "2": "加入原文不存在的信息",
+      "3": "加入原文不存在的信息"
+    },
+    "tip": "目的题常在 je voudrais、j’appelle pour、le problème c’est que 后面给出真正意图。"
+  },
+  {
+    "id": 3,
+    "level": "M+",
+    "theme": "交通",
+    "type": "原因",
+    "question": "Pourquoi le bus est-il détourné ?",
+    "text": "En raison de travaux sur l’avenue Victor-Hugo, la ligne vingt-quatre ne desservira pas l’arrêt République jusqu’à vendredi soir. Merci d’utiliser l’arrêt provisoire situé rue Pasteur.",
+    "options": [
+      "À cause d’un accident.",
+      "À cause de travaux.",
+      "À cause d’une manifestation.",
+      "À cause d’une panne."
+    ],
+    "answer": 1,
+    "analysis": "公共公告中的原因定位题。",
+    "key": [
+      "En raison de 是强因果定位词。",
+      "travaux sur l’avenue = 原因。",
+      "jusqu’à vendredi soir 是持续时间，不是原因。"
+    ],
+    "correctWhy": "B 正确。公交改道是因为道路施工。",
+    "distractors": [
+      "A、C、D 都是公共交通常见延误原因，但文本并未出现。"
+    ],
+    "mistakeMap": {
+      "0": "用常识代替原文",
+      "2": "用常识代替原文",
+      "3": "用常识代替原文"
+    },
+    "tip": "听到 en raison de、à cause de、suite à 后，紧随其后的名词通常就是答案。"
+  },
+  {
+    "id": 4,
+    "level": "M+",
+    "theme": "工作",
+    "type": "安排",
+    "question": "Que va faire l’homme vendredi ?",
+    "text": "Vendredi, je devais travailler au bureau toute la journée. Finalement, la réunion du matin a été annulée, donc je resterai chez moi jusqu’à midi et je viendrai au bureau l’après-midi.",
+    "options": [
+      "Il travaillera toute la journée chez lui.",
+      "Il travaillera toute la journée au bureau.",
+      "Il travaillera chez lui le matin et au bureau l’après-midi.",
+      "Il ne travaillera pas vendredi."
+    ],
+    "answer": 2,
+    "analysis": "计划变化题，需要把上午和下午两个时段组合起来。",
+    "key": [
+      "je devais = 原计划。",
+      "Finalement = 改变。",
+      "chez moi jusqu’à midi + bureau l’après-midi = 最终组合。"
+    ],
+    "correctWhy": "C 正确。上午居家，下午到办公室。",
+    "distractors": [
+      "A、B 都只保留了一个地点。",
+      "D 与原文完全相反。"
+    ],
+    "mistakeMap": {
+      "0": "只抓到部分信息",
+      "1": "停留在原计划",
+      "3": "忽略明确信息"
+    },
+    "tip": "涉及两个时段时，先在脑中建立‘上午/下午’两个格子，分别填入信息。"
+  },
+  {
+    "id": 5,
+    "level": "M+",
+    "theme": "活动",
+    "type": "条件",
+    "question": "Qui peut participer gratuitement ?",
+    "text": "L’entrée au festival coûte douze euros. Elle est gratuite pour les moins de douze ans, à condition d’être accompagnés d’un adulte.",
+    "options": [
+      "Tous les étudiants.",
+      "Les enfants de moins de douze ans accompagnés.",
+      "Tous les enfants de moins de dix-huit ans.",
+      "Les adultes accompagnant un enfant."
+    ],
+    "answer": 1,
+    "analysis": "条件限制题。答案必须同时满足年龄与陪同两个条件。",
+    "key": [
+      "gratuite pour les moins de douze ans = 年龄条件。",
+      "à condition d’être accompagnés = 附加条件。"
+    ],
+    "correctWhy": "B 正确。必须是十二岁以下且有成人陪同。",
+    "distractors": [
+      "C 把 12 岁扩大成 18 岁。",
+      "D 把免费对象从孩子误换成成人。"
+    ],
+    "mistakeMap": {
+      "0": "无依据推断",
+      "2": "条件范围扩大",
+      "3": "主体混淆"
+    },
+    "tip": "出现 à condition de、seulement si、à partir de、jusqu’à 时，要把条件完整保留，不能只记一半。"
+  },
+  {
+    "id": 6,
+    "level": "M+",
+    "theme": "住房",
+    "type": "细节",
+    "question": "Qu’est-ce qui est compris dans le loyer ?",
+    "text": "Le loyer est de huit cent cinquante euros par mois. Le chauffage et l’eau sont compris, mais l’électricité reste à la charge du locataire.",
+    "options": [
+      "Le chauffage et l’eau.",
+      "Le chauffage et l’électricité.",
+      "L’eau et l’électricité.",
+      "Toutes les charges."
+    ],
+    "answer": 0,
+    "analysis": "生活场景细节题，重点辨别包含与不包含。",
+    "key": [
+      "chauffage et eau sont compris = 包含。",
+      "mais l’électricité reste à la charge du locataire = 电费不包含。"
+    ],
+    "correctWhy": "A 正确。",
+    "distractors": [
+      "B、C 都错误加入了电费。",
+      "D 过度概括。"
+    ],
+    "mistakeMap": {
+      "1": "忽略转折后的排除信息",
+      "2": "忽略转折后的排除信息",
+      "3": "过度概括"
+    },
+    "tip": "comprends / inclus 与 à la charge de 是租房题里的高频对立表达。"
+  },
+  {
+    "id": 7,
+    "level": "A",
+    "theme": "广播采访",
+    "type": "态度",
+    "question": "Quelle est la position de l’intervenante ?",
+    "text": "Je ne suis pas opposée au projet en lui-même. Il répond à un vrai besoin. En revanche, le calendrier me paraît beaucoup trop ambitieux, et je crains qu’on sacrifie la qualité pour aller plus vite.",
+    "options": [
+      "Elle rejette entièrement le projet.",
+      "Elle soutient le projet sans réserve.",
+      "Elle approuve l’objectif mais critique le calendrier.",
+      "Elle ne comprend pas l’objectif du projet."
+    ],
+    "answer": 2,
+    "analysis": "高级态度题：总体认可，但对实施节奏持保留意见。",
+    "key": [
+      "pas opposée + vrai besoin = 原则上认可。",
+      "En revanche = 关键转折。",
+      "calendrier trop ambitieux = 真正批评点。"
+    ],
+    "correctWhy": "C 正确。她支持目标，但担心时间安排影响质量。",
+    "distractors": [
+      "A 忽略了她明确表示并不反对。",
+      "B 忽略了转折后的批评。",
+      "D 与‘répond à un vrai besoin’矛盾。"
+    ],
+    "mistakeMap": {
+      "0": "把局部批评放大为完全反对",
+      "1": "忽略转折后的保留意见",
+      "3": "忽略明确信息"
+    },
+    "tip": "高级态度题常是‘原则支持 + 执行保留’，不要强行简化成赞成/反对。"
+  },
+  {
+    "id": 8,
+    "level": "A",
+    "theme": "新闻",
+    "type": "主旨",
+    "question": "Quel est le sujet principal du reportage ?",
+    "text": "Depuis six mois, la ville expérimente la livraison de colis par vélos-cargos dans le centre. Le dispositif réduit le nombre de camionnettes, mais les entreprises demandent davantage de zones de chargement pour que le système fonctionne à grande échelle.",
+    "options": [
+      "La baisse des achats en ligne.",
+      "Les résultats d’une nouvelle méthode de livraison urbaine.",
+      "La création de pistes cyclables touristiques.",
+      "La fermeture des centres commerciaux."
+    ],
+    "answer": 1,
+    "analysis": "主旨题，需要覆盖措施、效果与局限三个层面。",
+    "key": [
+      "expérimente la livraison par vélos-cargos = 核心主题。",
+      "réduit les camionnettes = 初步效果。",
+      "mais les entreprises demandent... = 局限。"
+    ],
+    "correctWhy": "B 正确，最能概括整段。",
+    "distractors": [
+      "A、C、D 都属于城市/商业相关主题，但文本没有围绕它们展开。"
+    ],
+    "mistakeMap": {
+      "0": "被相近主题误导",
+      "2": "被局部词汇联想误导",
+      "3": "被相近主题误导"
+    },
+    "tip": "主旨题选能覆盖整段的信息，不要选只对应某个关键词的选项。"
+  },
+  {
+    "id": 9,
+    "level": "A",
+    "theme": "消费",
+    "type": "条件边界",
+    "question": "Dans quel cas le client recevra-t-il un remboursement ?",
+    "text": "Toute annulation effectuée au moins soixante-douze heures avant le départ donne droit à un remboursement intégral. Entre soixante-douze et vingt-quatre heures, seuls cinquante pour cent sont remboursés. Après ce délai, aucun remboursement n’est possible.",
+    "options": [
+      "S’il annule deux jours avant.",
+      "S’il annule au moins trois jours avant.",
+      "S’il annule la veille.",
+      "S’il annule après le départ."
+    ],
+    "answer": 1,
+    "analysis": "高级时间边界题。需要把 72 小时换算为 3 天，并区分全额、部分和无退款。",
+    "key": [
+      "au moins 72 heures = 至少三天。",
+      "entre 72 et 24 heures = 只能退一半。",
+      "après ce délai = 不退款。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 两天属于 72–24 小时，只退 50%。",
+      "C 24 小时附近并非全额退款。",
+      "D 不符合任何退款条件。"
+    ],
+    "mistakeMap": {
+      "0": "时间换算/边界错误",
+      "2": "忽略退款比例差异",
+      "3": "条件方向错误"
+    },
+    "tip": "条件边界题先在脑中画时间线，再判断每个区间对应的结果。"
+  },
+  {
+    "id": 10,
+    "level": "A",
+    "theme": "社会",
+    "type": "隐含原因",
+    "question": "Pourquoi l’homme n’accepte-t-il pas immédiatement la proposition ?",
+    "text": "Sur le principe, l’idée me plaît beaucoup, et le coût reste raisonnable. Ce qui me retient, c’est surtout que je devrais m’engager pour une année entière sans savoir si mon emploi du temps restera le même.",
+    "options": [
+      "Il trouve le prix excessif.",
+      "Il doute de pouvoir s’engager sur la durée.",
+      "Il n’aime pas l’idée proposée.",
+      "Il prévoit de déménager."
+    ],
+    "answer": 1,
+    "analysis": "隐含原因题。前半段主动排除价格和兴趣，最后给出真正顾虑。",
+    "key": [
+      "l’idée me plaît beaucoup = 排除不喜欢。",
+      "coût raisonnable = 排除太贵。",
+      "m’engager pour une année entière = 真正顾虑。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C 被前文明确定义为相反。",
+      "D 文中没有提到搬家。"
+    ],
+    "mistakeMap": {
+      "0": "忽略排除信息",
+      "2": "忽略排除信息",
+      "3": "无依据推断"
+    },
+    "tip": "高级原因题常先明确说‘不是A、不是B’，真正原因放在 ce qui me retient / le problème c’est que 后面。"
+  },
+  {
+    "id": 11,
+    "level": "M+",
+    "theme": "电话留言",
+    "type": "行动",
+    "question": "Que doit faire la personne avant vendredi ?",
+    "text": "Bonjour, ici le cabinet du docteur Martin. Nous avons bien reçu vos résultats. Merci de nous rappeler avant vendredi afin de fixer un rendez-vous de suivi.",
+    "options": [
+      "Refaire les analyses.",
+      "Téléphoner au cabinet.",
+      "Se présenter vendredi matin.",
+      "Envoyer ses résultats par courriel."
+    ],
+    "answer": 1,
+    "analysis": "电话留言中的行动指令题。",
+    "key": [
+      "Merci de nous rappeler = 明确要求回电。",
+      "avant vendredi = 截止时间。",
+      "fixer un rendez-vous de suivi = 回电目的。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、D 与‘已收到结果’矛盾。",
+      "C 把截止日期误解成预约日期。"
+    ],
+    "mistakeMap": {
+      "0": "忽略已有信息",
+      "2": "把截止日期当成行动日期",
+      "3": "忽略已有信息"
+    },
+    "tip": "留言题重点抓祈使/请求表达：merci de、veuillez、n’oubliez pas de。"
+  },
+  {
+    "id": 12,
+    "level": "M+",
+    "theme": "餐饮",
+    "type": "变化",
+    "question": "Quel plat n’est plus disponible ?",
+    "text": "Pour le menu de ce soir, le saumon est malheureusement épuisé. Nous pouvons vous proposer à la place le poulet rôti ou le risotto aux champignons.",
+    "options": [
+      "Le poulet rôti.",
+      "Le risotto.",
+      "Le saumon.",
+      "Les champignons."
+    ],
+    "answer": 2,
+    "analysis": "餐饮场景的状态变化题。",
+    "key": [
+      "épuisé = 售罄/没有了。",
+      "à la place = 替代选项。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A、B 是替代品，不是缺货品。",
+      "D 只是 risotto 的配料。"
+    ],
+    "mistakeMap": {
+      "0": "主体混淆",
+      "1": "主体混淆",
+      "3": "局部词汇误导"
+    },
+    "tip": "餐饮/购物题要熟悉 épuisé、indisponible、en rupture de stock。"
+  },
+  {
+    "id": 13,
+    "level": "M+",
+    "theme": "学校",
+    "type": "地点",
+    "question": "Où aura lieu la réunion ?",
+    "text": "La réunion des parents devait se tenir dans la salle polyvalente. Comme elle est en travaux, nous vous accueillerons finalement à la bibliothèque, au premier étage.",
+    "options": [
+      "Dans la salle polyvalente.",
+      "À la bibliothèque.",
+      "Dans la cour.",
+      "Au secrétariat."
+    ],
+    "answer": 1,
+    "analysis": "地点变化题。",
+    "key": [
+      "devait se tenir = 原计划。",
+      "Comme elle est en travaux = 变更原因。",
+      "finalement à la bibliothèque = 最终地点。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 是原计划地点。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "停留在原计划",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "地点题尤其注意 devait / normalement 与 finalement / désormais 的对比。"
+  },
+  {
+    "id": 14,
+    "level": "M+",
+    "theme": "服务",
+    "type": "价格",
+    "question": "Combien coûtera la réparation ?",
+    "text": "La réparation coûte normalement quatre-vingt-dix euros, mais votre appareil est encore sous garantie. Vous n’aurez donc que les frais de transport, soit quinze euros, à payer.",
+    "options": [
+      "15 euros.",
+      "75 euros.",
+      "90 euros.",
+      "105 euros."
+    ],
+    "answer": 0,
+    "analysis": "价格题，区分原价与实际支付金额。",
+    "key": [
+      "normalement 90 = 原维修费。",
+      "sous garantie = 保修。",
+      "que les frais de transport, soit 15 = 实付。"
+    ],
+    "correctWhy": "A 正确。",
+    "distractors": [
+      "C 是正常维修费。",
+      "B、D 是错误计算。"
+    ],
+    "mistakeMap": {
+      "1": "错误计算",
+      "2": "停留在原价",
+      "3": "错误计算"
+    },
+    "tip": "金额题要抓 soit、au total、vous paierez、il vous reste à payer 等最终结论词。"
+  },
+  {
+    "id": 15,
+    "level": "M+",
+    "theme": "天气公告",
+    "type": "建议",
+    "question": "Que recommande-t-on aux automobilistes ?",
+    "text": "En raison du verglas prévu cette nuit, les autorités recommandent d’éviter les déplacements non essentiels avant neuf heures demain matin.",
+    "options": [
+      "De partir plus tôt ce soir.",
+      "D’éviter de conduire tôt demain.",
+      "De prendre uniquement l’autoroute.",
+      "De remplacer leurs pneus demain."
+    ],
+    "answer": 1,
+    "analysis": "公共公告中的建议题。",
+    "key": [
+      "recommandent d’éviter = 建议避免。",
+      "avant neuf heures demain matin = 时间限制。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 都是可能的天气应对措施，但原文没有说。"
+    ],
+    "mistakeMap": {
+      "0": "用常识代替原文",
+      "2": "用常识代替原文",
+      "3": "用常识代替原文"
+    },
+    "tip": "公告题必须听原文中的建议动词：recommander、conseiller、demander de。"
+  },
+  {
+    "id": 16,
+    "level": "A",
+    "theme": "街头采访",
+    "type": "观点",
+    "question": "Pourquoi cette personne soutient-elle la mesure ?",
+    "text": "Je sais que supprimer des places de stationnement ne plaît pas à tout le monde. Mais si cela permet aux enfants d’aller à l’école à vélo en sécurité, je pense que le sacrifice est acceptable.",
+    "options": [
+      "Parce qu’elle veut réduire le prix du stationnement.",
+      "Parce qu’elle privilégie la sécurité des enfants.",
+      "Parce qu’elle n’utilise jamais de voiture.",
+      "Parce qu’elle souhaite fermer l’école."
+    ],
+    "answer": 1,
+    "analysis": "街访观点题。需要识别让步后真正的价值判断。",
+    "key": [
+      "Je sais que... = 先承认反方问题。",
+      "Mais = 转折。",
+      "sécurité des enfants = 支持措施的核心理由。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 都没有文本依据。"
+    ],
+    "mistakeMap": {
+      "0": "加入未提及理由",
+      "2": "过度推断个人习惯",
+      "3": "无依据推断"
+    },
+    "tip": "街访题常用让步结构：je comprends que..., mais...；答案通常在 mais 后。"
+  },
+  {
+    "id": 17,
+    "level": "A",
+    "theme": "采访",
+    "type": "推断",
+    "question": "Qu’est-ce qui inquiète principalement l’entrepreneuse ?",
+    "text": "Les commandes augmentent, ce qui est évidemment une bonne nouvelle. Mon inquiétude, c’est que nous avons du mal à recruter assez vite pour suivre ce rythme sans épuiser l’équipe actuelle.",
+    "options": [
+      "La baisse des commandes.",
+      "Le manque de personnel.",
+      "Le prix de ses produits.",
+      "La concurrence étrangère."
+    ],
+    "answer": 1,
+    "analysis": "采访中的核心担忧题。",
+    "key": [
+      "commandes augmentent = 排除需求下降。",
+      "Mon inquiétude, c’est que = 强定位。",
+      "du mal à recruter = 人手不足。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 与原文相反。",
+      "C、D 未出现。"
+    ],
+    "mistakeMap": {
+      "0": "忽略相反信息",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "遇到 mon inquiétude / ce qui me préoccupe / le principal problème 等词，后面通常直接给答案。"
+  },
+  {
+    "id": 18,
+    "level": "A",
+    "theme": "广播",
+    "type": "逻辑关系",
+    "question": "Pourquoi le spécialiste reste-t-il prudent ?",
+    "text": "Les chiffres du trimestre sont meilleurs que prévu, mais il serait prématuré d’y voir un retournement durable. Une partie de l’amélioration vient de mesures temporaires qui prendront fin cet hiver.",
+    "options": [
+      "Parce que les chiffres sont faux.",
+      "Parce que l’amélioration dépend en partie de mesures temporaires.",
+      "Parce que l’hiver a déjà annulé les progrès.",
+      "Parce qu’il refuse d’analyser les chiffres."
+    ],
+    "answer": 1,
+    "analysis": "高级逻辑题。要区分‘好转’与‘是否可持续’。",
+    "key": [
+      "meilleurs que prévu = 短期正面。",
+      "mais il serait prématuré = 谨慎。",
+      "mesures temporaires = 不可持续原因。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 都把谨慎理由夸大或歪曲。"
+    ],
+    "mistakeMap": {
+      "0": "过度推断",
+      "2": "时间逻辑错误",
+      "3": "误解说话人态度"
+    },
+    "tip": "经济/新闻类题常考‘短期改善 ≠ 长期趋势’，注意 durable、temporaire、prématuré。"
+  },
+  {
+    "id": 19,
+    "level": "A",
+    "theme": "职场",
+    "type": "含义",
+    "question": "Que veut dire la responsable ?",
+    "text": "Je ne remets pas en cause la qualité de votre travail. En revanche, j’aimerais que vous me préveniez plus tôt lorsqu’un délai risque de ne pas être respecté.",
+    "options": [
+      "Elle critique la qualité du travail.",
+      "Elle demande une meilleure communication sur les retards.",
+      "Elle veut réduire le nombre de projets.",
+      "Elle souhaite reporter toutes les échéances."
+    ],
+    "answer": 1,
+    "analysis": "含义题，需要把批评对象定位到沟通而不是工作质量。",
+    "key": [
+      "Je ne remets pas en cause la qualité = 明确排除质量问题。",
+      "En revanche = 转折。",
+      "préveniez plus tôt = 提前沟通。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 被第一句明确否定。",
+      "C、D 没有依据。"
+    ],
+    "mistakeMap": {
+      "0": "忽略否定",
+      "2": "无依据推断",
+      "3": "过度概括"
+    },
+    "tip": "高级职场题常先缓和语气，再提出真正要求；重点听 en revanche / ce que j’aimerais。"
+  },
+  {
+    "id": 20,
+    "level": "A",
+    "theme": "住房",
+    "type": "隐含结果",
+    "question": "Quelle conséquence est la plus probable ?",
+    "text": "Le propriétaire accepte de renouveler le bail au même prix, à condition que les locataires prennent désormais en charge l’entretien du jardin.",
+    "options": [
+      "Le loyer va augmenter.",
+      "Les locataires devront s’occuper du jardin.",
+      "Le propriétaire vendra le logement.",
+      "Les locataires devront quitter le logement."
+    ],
+    "answer": 1,
+    "analysis": "条件结果题。",
+    "key": [
+      "au même prix = 租金不变。",
+      "à condition que = 条件。",
+      "prennent en charge l’entretien du jardin = 租客负责花园。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 与‘au même prix’矛盾。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "忽略明确信息",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "à condition que 后面通常就是达成协议必须承担的新义务。"
+  },
+  {
+    "id": 21,
+    "level": "M+",
+    "theme": "旅行",
+    "type": "行程变化",
+    "question": "Quel changement est annoncé ?",
+    "text": "Le vol pour Montréal partira bien à l’heure prévue, mais l’embarquement se fera porte trente-deux au lieu de la porte dix-huit.",
+    "options": [
+      "L’heure de départ change.",
+      "La destination change.",
+      "La porte d’embarquement change.",
+      "Le vol est annulé."
+    ],
+    "answer": 2,
+    "analysis": "机场公告变化题。",
+    "key": [
+      "partira bien à l’heure prévue = 时间不变。",
+      "mais = 转折。",
+      "porte 32 au lieu de 18 = 登机口变化。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 被第一句明确排除。",
+      "B、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "忽略排除信息",
+      "1": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "机场题注意 au lieu de、désormais、porte、quai、terminal 等变化定位词。"
+  },
+  {
+    "id": 22,
+    "level": "M+",
+    "theme": "健康",
+    "type": "建议",
+    "question": "Que conseille le pharmacien ?",
+    "text": "Si la douleur reste légère, prenez ce médicament après les repas. En revanche, si la fièvre dépasse trente-neuf degrés, consultez rapidement un médecin.",
+    "options": [
+      "Prendre le médicament à jeun.",
+      "Consulter immédiatement pour toute douleur.",
+      "Prendre le médicament après les repas si la douleur est légère.",
+      "Attendre plusieurs jours si la fièvre est élevée."
+    ],
+    "answer": 2,
+    "analysis": "双条件建议题。",
+    "key": [
+      "si la douleur reste légère = 条件一。",
+      "après les repas = 对应建议。",
+      "si la fièvre dépasse 39 = 条件二，需就医。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 与原文相反。",
+      "B 把条件扩大为任何疼痛。",
+      "D 与建议相反。"
+    ],
+    "mistakeMap": {
+      "0": "忽略用药条件",
+      "1": "条件范围扩大",
+      "3": "理解方向相反"
+    },
+    "tip": "医疗建议题要把‘症状条件’和‘对应行动’一一配对。"
+  },
+  {
+    "id": 23,
+    "level": "M+",
+    "theme": "社区",
+    "type": "日期",
+    "question": "Quand la piscine rouvrira-t-elle ?",
+    "text": "La piscine municipale restera fermée lundi et mardi pour entretien. Elle accueillera de nouveau le public à partir de mercredi matin.",
+    "options": [
+      "Lundi.",
+      "Mardi.",
+      "Mercredi.",
+      "Jeudi."
+    ],
+    "answer": 2,
+    "analysis": "日期题，抓住 à partir de。",
+    "key": [
+      "fermée lundi et mardi = 关闭时段。",
+      "à partir de mercredi matin = 恢复开放。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A、B 是关闭日期。",
+      "D 晚了一天。"
+    ],
+    "mistakeMap": {
+      "0": "把关闭时间当开放时间",
+      "1": "把关闭时间当开放时间",
+      "3": "日期偏移"
+    },
+    "tip": "日期题熟悉 à partir de（从…开始）、jusqu’à（直到…）。"
+  },
+  {
+    "id": 24,
+    "level": "M+",
+    "theme": "课程",
+    "type": "资格",
+    "question": "Qui peut s’inscrire au cours avancé ?",
+    "text": "Le cours avancé est réservé aux personnes ayant déjà suivi le niveau intermédiaire ou pouvant justifier d’un niveau équivalent lors du test d’entrée.",
+    "options": [
+      "Tous les débutants.",
+      "Seulement les anciens élèves de l’école.",
+      "Les personnes ayant le niveau intermédiaire ou équivalent.",
+      "Uniquement les personnes ayant réussi le niveau avancé."
+    ],
+    "answer": 2,
+    "analysis": "资格条件题。",
+    "key": [
+      "réservé aux = 限定对象。",
+      "niveau intermédiaire ou niveau équivalent = 两种合资格途径。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "B 把条件缩窄为本校旧生。",
+      "A、D 不符合级别要求。"
+    ],
+    "mistakeMap": {
+      "0": "忽略资格限制",
+      "1": "条件范围缩窄",
+      "3": "等级逻辑错误"
+    },
+    "tip": "资格题注意 réservé à、à condition de、justifier de、être titulaire de。"
+  },
+  {
+    "id": 25,
+    "level": "M+",
+    "theme": "工作",
+    "type": "优先事项",
+    "question": "Quelle tâche doit être faite en premier ?",
+    "text": "Avant de préparer la présentation de demain, merci de répondre au client qui attend notre confirmation depuis hier. Le reste peut attendre cet après-midi.",
+    "options": [
+      "Préparer la présentation.",
+      "Répondre au client.",
+      "Organiser la réunion.",
+      "Mettre à jour le site web."
+    ],
+    "answer": 1,
+    "analysis": "任务优先级题。",
+    "key": [
+      "Avant de... = 在做另一件事之前。",
+      "répondre au client = 第一优先。",
+      "le reste peut attendre = 强化优先级。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 是随后才做。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "顺序关系错误",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "工作指令题注意 avant de、d’abord、en priorité、ensuite。"
+  },
+  {
+    "id": 26,
+    "level": "A",
+    "theme": "街头采访",
+    "type": "态度细分",
+    "question": "Comment cette personne juge-t-elle la nouvelle règle ?",
+    "text": "Je comprends pourquoi la ville veut limiter la circulation. Pourtant, appliquer la même règle à tous les quartiers me semble un peu simpliste, car les besoins ne sont pas les mêmes partout.",
+    "options": [
+      "Elle l’approuve totalement.",
+      "Elle comprend l’objectif mais juge l’application trop uniforme.",
+      "Elle refuse toute limitation de circulation.",
+      "Elle pense que tous les quartiers ont les mêmes besoins."
+    ],
+    "answer": 1,
+    "analysis": "高级态度细分题。",
+    "key": [
+      "Je comprends pourquoi = 理解目标。",
+      "Pourtant = 转折。",
+      "même règle à tous... simpliste = 批评一刀切。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 忽略保留意见。",
+      "C 把批评实施方式夸大成反对目标。",
+      "D 与原文相反。"
+    ],
+    "mistakeMap": {
+      "0": "忽略保留意见",
+      "2": "把局部批评扩大为全面反对",
+      "3": "理解方向相反"
+    },
+    "tip": "‘理解目标但不同意执行方式’是高频态度结构。"
+  },
+  {
+    "id": 27,
+    "level": "A",
+    "theme": "采访",
+    "type": "原因结果",
+    "question": "Pourquoi l’entreprise modifie-t-elle son organisation ?",
+    "text": "Nous n’avons pas moins de travail, au contraire. Mais les demandes arrivent désormais de façon beaucoup plus irrégulière. Nous devons donc rendre les horaires plus flexibles pour éviter d’avoir trop de personnel certains jours et pas assez d’autres jours.",
+    "options": [
+      "Parce que l’activité diminue fortement.",
+      "Parce que la demande varie davantage selon les jours.",
+      "Parce que les salariés refusent de travailler.",
+      "Parce que l’entreprise va fermer."
+    ],
+    "answer": 1,
+    "analysis": "因果链题。工作量不下降，但波动性增加，因此需要灵活排班。",
+    "key": [
+      "pas moins de travail = 排除业务下滑。",
+      "demandes... plus irrégulière = 真因。",
+      "donc horaires plus flexibles = 结果。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 被原文明确定义为相反。",
+      "C、D 无依据。"
+    ],
+    "mistakeMap": {
+      "0": "忽略否定",
+      "2": "无依据推断",
+      "3": "过度推断"
+    },
+    "tip": "复杂因果题先找‘变化是什么’，再找 donc / c’est pourquoi 后的应对。"
+  },
+  {
+    "id": 28,
+    "level": "A",
+    "theme": "广播评论",
+    "type": "立场",
+    "question": "Quelle idée défend le chroniqueur ?",
+    "text": "On présente souvent le télétravail comme une solution écologique évidente. C’est parfois vrai, mais pas systématiquement : si chacun habite plus loin de son entreprise et se déplace davantage le week-end, le bilan peut être moins favorable qu’on ne le pense.",
+    "options": [
+      "Le télétravail est toujours écologique.",
+      "Le télétravail n’a aucun avantage.",
+      "L’impact écologique du télétravail dépend des comportements.",
+      "Les déplacements du week-end devraient être interdits."
+    ],
+    "answer": 2,
+    "analysis": "高级观点题：作者反对绝对化结论，强调条件性。",
+    "key": [
+      "souvent présenté comme... = 常见观点。",
+      "mais pas systématiquement = 核心修正。",
+      "le bilan peut être moins favorable = 取决于行为。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 正是作者反驳的绝对观点。",
+      "B 又走向另一极端。",
+      "D 是无依据的政策主张。"
+    ],
+    "mistakeMap": {
+      "0": "忽略限定词",
+      "1": "把保留意见极端化",
+      "3": "无依据推断"
+    },
+    "tip": "高级观点题特别注意 toujours、jamais、systématiquement 等绝对词，它们经常是错误选项。"
+  },
+  {
+    "id": 29,
+    "level": "A",
+    "theme": "新闻",
+    "type": "数据解释",
+    "question": "Que montrent les chiffres présentés ?",
+    "text": "Les ventes ont progressé de huit pour cent cette année. Toutefois, cette hausse vient surtout des achats en ligne, tandis que les ventes en magasin sont restées presque stables.",
+    "options": [
+      "Toutes les ventes ont augmenté de la même façon.",
+      "Les magasins ont connu la plus forte croissance.",
+      "La croissance vient principalement du commerce en ligne.",
+      "Les ventes en ligne ont diminué."
+    ],
+    "answer": 2,
+    "analysis": "数据结构题。总量增长并不意味着各渠道同步增长。",
+    "key": [
+      "progressé de 8% = 总体。",
+      "Toutefois = 分解。",
+      "surtout des achats en ligne = 主要贡献来源。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 把总量增长错误均摊到所有渠道。",
+      "B、D 与文本相反。"
+    ],
+    "mistakeMap": {
+      "0": "把总体数据误当各分项一致",
+      "1": "理解方向相反",
+      "3": "理解方向相反"
+    },
+    "tip": "新闻数据题要区分总量与结构，尤其注意 surtout、principalement、tandis que。"
+  },
+  {
+    "id": 30,
+    "level": "A",
+    "theme": "公共政策",
+    "type": "限制条件",
+    "question": "Quel est le principal obstacle mentionné ?",
+    "text": "Le programme pourrait être étendu à toute la région dès l’an prochain. Encore faut-il que les communes trouvent suffisamment de personnel formé, ce qui est loin d’être garanti aujourd’hui.",
+    "options": [
+      "Le coût du programme.",
+      "Le manque possible de personnel qualifié.",
+      "L’opposition de toutes les communes.",
+      "L’absence de demande du public."
+    ],
+    "answer": 1,
+    "analysis": "高级限制条件题。",
+    "key": [
+      "pourrait être étendu = 有可能扩大。",
+      "Encore faut-il que = 关键前提/障碍。",
+      "personnel formé = 具体限制。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 均未被提及。"
+    ],
+    "mistakeMap": {
+      "0": "无依据推断",
+      "2": "过度概括",
+      "3": "无依据推断"
+    },
+    "tip": "Encore faut-il que、à condition que、sous réserve de 常引出决定成败的关键条件。"
+  },
+  {
+    "id": 31,
+    "level": "M+",
+    "theme": "酒店",
+    "type": "服务变化",
+    "question": "Quel service n’est pas disponible ce matin ?",
+    "text": "Le petit-déjeuner est servi normalement jusqu’à dix heures. En revanche, la piscine restera fermée ce matin pour un contrôle technique et rouvrira à quatorze heures.",
+    "options": [
+      "Le petit-déjeuner.",
+      "La piscine.",
+      "La réception.",
+      "Le restaurant du soir."
+    ],
+    "answer": 1,
+    "analysis": "酒店服务状态题。",
+    "key": [
+      "servi normalement = 早餐正常。",
+      "En revanche = 转折。",
+      "piscine restera fermée = 不可用服务。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 被明确说明正常。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "忽略状态对比",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "服务状态题要抓 ouvert/fermé、disponible/indisponible、normalement/en revanche。"
+  },
+  {
+    "id": 32,
+    "level": "M+",
+    "theme": "银行",
+    "type": "要求",
+    "question": "Que doit apporter le client ?",
+    "text": "Pour ouvrir le compte, il vous faudra une pièce d’identité et un justificatif de domicile de moins de trois mois. Aucun rendez-vous n’est nécessaire.",
+    "options": [
+      "Une pièce d’identité seulement.",
+      "Une pièce d’identité et un justificatif de domicile récent.",
+      "Une lettre de son employeur.",
+      "Une preuve de rendez-vous."
+    ],
+    "answer": 1,
+    "analysis": "材料要求题。",
+    "key": [
+      "il vous faudra = 需要。",
+      "et = 两份材料都要。",
+      "aucun rendez-vous = 排除预约证明。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 漏掉第二项材料。",
+      "C 未提及。",
+      "D 与原文相反。"
+    ],
+    "mistakeMap": {
+      "0": "只听到部分清单",
+      "2": "无依据推断",
+      "3": "忽略否定"
+    },
+    "tip": "材料清单题要特别注意 et / ou；一个词就可能改变资格条件。"
+  },
+  {
+    "id": 33,
+    "level": "M+",
+    "theme": "物流",
+    "type": "日期",
+    "question": "Quand le colis devrait-il arriver ?",
+    "text": "Votre colis devait être livré mardi, mais le transporteur nous informe d’un retard de vingt-quatre heures. La livraison est donc prévue mercredi.",
+    "options": [
+      "Lundi.",
+      "Mardi.",
+      "Mercredi.",
+      "Jeudi."
+    ],
+    "answer": 2,
+    "analysis": "简单日期延后题。",
+    "key": [
+      "devait être livré mardi = 原日期。",
+      "retard de 24 heures = 延后一天。",
+      "donc prévue mercredi = 明确答案。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "B 是原日期。",
+      "A、D 是错误移动。"
+    ],
+    "mistakeMap": {
+      "0": "日期偏移错误",
+      "1": "停留在原计划",
+      "3": "日期偏移错误"
+    },
+    "tip": "如果文本已经给出 donc + 最终日期，不必再自己计算。"
+  },
+  {
+    "id": 34,
+    "level": "M+",
+    "theme": "文化活动",
+    "type": "选择",
+    "question": "Quelle séance choisira la femme ?",
+    "text": "La séance de dix-huit heures est complète. Celle de vingt heures est encore disponible, mais je travaille tôt demain. Je vais donc prendre la séance de seize heures trente.",
+    "options": [
+      "16 h 30.",
+      "18 h.",
+      "20 h.",
+      "Elle ne viendra pas."
+    ],
+    "answer": 0,
+    "analysis": "多选项排除+最终决定题。",
+    "key": [
+      "18 h complète = 排除。",
+      "20 h disponible mais... = 可行但不选。",
+      "je vais donc prendre 16 h 30 = 最终选择。"
+    ],
+    "correctWhy": "A 正确。",
+    "distractors": [
+      "B 已满。",
+      "C 是被考虑但放弃的选项。",
+      "D 与最终决定矛盾。"
+    ],
+    "mistakeMap": {
+      "1": "停留在被否定选项",
+      "2": "把考虑中的选项当最终选择",
+      "3": "忽略最终决定"
+    },
+    "tip": "选择题里要区分：不可选、考虑过、最终选择。关键词 souvent: finalement, je vais prendre, je préfère。"
+  },
+  {
+    "id": 35,
+    "level": "A",
+    "theme": "采访",
+    "type": "态度强度",
+    "question": "Comment la chercheuse évalue-t-elle les résultats ?",
+    "text": "Les premiers résultats sont encourageants, mais l’échantillon reste trop limité pour tirer des conclusions solides. Il faut donc éviter de présenter cette étude comme une preuve définitive.",
+    "options": [
+      "Elle considère les résultats comme inutiles.",
+      "Elle les juge prometteurs mais encore insuffisants.",
+      "Elle pense qu’ils prouvent définitivement l’hypothèse.",
+      "Elle remet en cause la méthode sans nuance."
+    ],
+    "answer": 1,
+    "analysis": "科学类高级态度题，核心是‘鼓舞但不足以下定论’。",
+    "key": [
+      "encourageants = 正面。",
+      "mais l’échantillon reste trop limité = 限制。",
+      "éviter... preuve définitive = 不能过度结论。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、D 过度否定。",
+      "C 与作者警告完全相反。"
+    ],
+    "mistakeMap": {
+      "0": "把谨慎误读为否定",
+      "2": "忽略限定与警告",
+      "3": "把谨慎误读为否定"
+    },
+    "tip": "科研/报道题中 encouraging ≠ conclusive；注意 solide、définitif、limité。"
+  },
+  {
+    "id": 36,
+    "level": "A",
+    "theme": "职场采访",
+    "type": "动机",
+    "question": "Pourquoi la responsable a-t-elle changé la procédure ?",
+    "text": "L’ancienne procédure était plus rapide, mais elle produisait trop d’erreurs difficiles à corriger ensuite. Nous avons choisi un système un peu plus long au départ, mais plus fiable.",
+    "options": [
+      "Pour gagner du temps immédiatement.",
+      "Pour réduire les erreurs.",
+      "Pour supprimer les contrôles.",
+      "Pour diminuer les effectifs."
+    ],
+    "answer": 1,
+    "analysis": "动机题。新流程更慢，但更可靠。",
+    "key": [
+      "ancienne... plus rapide = 旧方案优点。",
+      "mais trop d’erreurs = 旧方案问题。",
+      "plus fiable = 新方案目标。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 与‘un peu plus long’相反。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "只抓旧方案优点",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "比较新旧方案时，要问‘为什么愿意接受新方案的缺点’，答案通常就是改动目的。"
+  },
+  {
+    "id": 37,
+    "level": "A",
+    "theme": "城市生活",
+    "type": "观点推断",
+    "question": "Quelle conclusion peut-on tirer des propos de l’homme ?",
+    "text": "Depuis qu’ils ont élargi les trottoirs, c’est beaucoup plus agréable de marcher ici. En revanche, aux heures de livraison, les camions bloquent parfois toute la rue. Il faudrait mieux organiser ces créneaux.",
+    "options": [
+      "Il souhaite revenir à l’ancien aménagement.",
+      "Il apprécie l’aménagement mais veut mieux gérer les livraisons.",
+      "Il veut interdire les piétons.",
+      "Il estime que les camions ne posent aucun problème."
+    ],
+    "answer": 1,
+    "analysis": "折中态度+建议题。",
+    "key": [
+      "beaucoup plus agréable = 对改造正面。",
+      "En revanche = 问题。",
+      "mieux organiser = 具体改进建议。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 把局部问题扩大成否定整体。",
+      "C、D 与原文相反。"
+    ],
+    "mistakeMap": {
+      "0": "把局部批评扩大为总体否定",
+      "2": "理解方向相反",
+      "3": "理解方向相反"
+    },
+    "tip": "一段话同时有赞扬和批评时，答案常是‘总体肯定 + 局部改进’。"
+  },
+  {
+    "id": 38,
+    "level": "A",
+    "theme": "广播",
+    "type": "因果",
+    "question": "Pourquoi les prix risquent-ils de rester élevés ?",
+    "text": "La demande a commencé à ralentir, ce qui devrait normalement faire baisser les prix. Pourtant, les coûts de transport restent très élevés et plusieurs fournisseurs ont réduit leur production.",
+    "options": [
+      "Parce que la demande augmente fortement.",
+      "Parce que les coûts et l’offre continuent de poser problème.",
+      "Parce que les transports sont devenus gratuits.",
+      "Parce que la production a doublé."
+    ],
+    "answer": 1,
+    "analysis": "双因素因果题。",
+    "key": [
+      "demande ralentit = 本应压低价格。",
+      "Pourtant = 反转。",
+      "coûts élevés + production réduite = 价格仍高原因。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 与原文相反。",
+      "C、D 与原文相反。"
+    ],
+    "mistakeMap": {
+      "0": "忽略相反信息",
+      "2": "理解方向相反",
+      "3": "理解方向相反"
+    },
+    "tip": "经济题里常有‘按理应该A，但因为B/C所以结果不同’的结构。"
+  },
+  {
+    "id": 39,
+    "level": "A",
+    "theme": "教育",
+    "type": "目的",
+    "question": "Quel est l’objectif principal de la nouvelle formule ?",
+    "text": "Nous ne voulons pas réduire le nombre d’heures de cours. L’idée est plutôt de regrouper certaines séances afin de libérer une demi-journée pour les projets en équipe.",
+    "options": [
+      "Réduire le temps total de formation.",
+      "Donner plus de temps aux projets collectifs.",
+      "Supprimer les cours théoriques.",
+      "Augmenter les examens."
+    ],
+    "answer": 1,
+    "analysis": "目的题，第一句先排除错误解释。",
+    "key": [
+      "ne voulons pas réduire = 排除总课时减少。",
+      "L’idée est plutôt de = 真正目的。",
+      "libérer une demi-journée pour les projets = 目标。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 被明确否定。",
+      "C、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "忽略否定",
+      "2": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "目的题注意 L’idée est de、l’objectif est de、il s’agit de。"
+  },
+  {
+    "id": 40,
+    "level": "A",
+    "theme": "服务政策",
+    "type": "例外条件",
+    "question": "Dans quel cas les frais ne seront-ils pas facturés ?",
+    "text": "Des frais de dix euros sont normalement appliqués pour toute modification effectuée moins de vingt-quatre heures avant le rendez-vous. Ils ne seront toutefois pas facturés en cas d’urgence médicale justifiée.",
+    "options": [
+      "Pour toute modification.",
+      "Si la modification est faite le jour même.",
+      "En cas d’urgence médicale justifiée.",
+      "Si le client téléphone."
+    ],
+    "answer": 2,
+    "analysis": "规则+例外题。",
+    "key": [
+      "normalement appliqués = 一般规则。",
+      "toutefois = 例外转折。",
+      "urgence médicale justifiée = 免收费条件。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A、B 忽略了收费规则。",
+      "D 不是免收费条件。"
+    ],
+    "mistakeMap": {
+      "0": "忽略例外条件",
+      "1": "忽略例外条件",
+      "3": "无依据推断"
+    },
+    "tip": "政策题特别注意 sauf、excepté、toutefois、à moins que，它们会改变默认规则。"
+  },
+  {
+    "id": 41,
+    "level": "M+",
+    "theme": "餐厅",
+    "type": "时间",
+    "question": "À partir de quelle heure peut-on dîner ?",
+    "text": "Le déjeuner est servi jusqu’à quatorze heures trente. La cuisine ferme ensuite pendant deux heures et le service du soir commence à seize heures trente.",
+    "options": [
+      "14 h 30.",
+      "15 h 30.",
+      "16 h 30.",
+      "18 h 30."
+    ],
+    "answer": 2,
+    "analysis": "营业时间题。",
+    "key": [
+      "jusqu’à 14 h 30 = 午餐结束。",
+      "ferme pendant deux heures = 中间关闭。",
+      "service du soir commence à 16 h 30 = 晚餐开始。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 是午餐结束时间。",
+      "B、D 不符合时间关系。"
+    ],
+    "mistakeMap": {
+      "0": "把结束时间当开始时间",
+      "1": "时间计算错误",
+      "3": "时间偏移"
+    },
+    "tip": "营业时间题区分 ferme à、ouvre à、service commence、jusqu’à。"
+  },
+  {
+    "id": 42,
+    "level": "M+",
+    "theme": "车辆",
+    "type": "要求",
+    "question": "Que doit faire le propriétaire du véhicule ?",
+    "text": "Votre véhicule a passé le contrôle, mais un feu arrière doit être remplacé. Vous disposez de quinze jours pour effectuer la réparation, puis vous devrez revenir pour une vérification gratuite.",
+    "options": [
+      "Remplacer le feu arrière et revenir dans les quinze jours.",
+      "Changer immédiatement de véhicule.",
+      "Payer un nouveau contrôle complet.",
+      "Ne rien faire puisque le contrôle est réussi."
+    ],
+    "answer": 0,
+    "analysis": "行动步骤题。",
+    "key": [
+      "mais un feu arrière doit être remplacé = 必修。",
+      "quinze jours = 时限。",
+      "revenir pour une vérification gratuite = 后续动作。"
+    ],
+    "correctWhy": "A 正确。",
+    "distractors": [
+      "D 被 but 转折否定。",
+      "B、C 夸大要求。"
+    ],
+    "mistakeMap": {
+      "1": "过度推断",
+      "2": "忽略 gratuite",
+      "3": "忽略转折后的义务"
+    },
+    "tip": "服务程序题要顺序记录：问题 → 时限 → 下一步。"
+  },
+  {
+    "id": 43,
+    "level": "A",
+    "theme": "街头采访",
+    "type": "价值判断",
+    "question": "Pourquoi la femme accepte-t-elle de payer davantage ?",
+    "text": "Bien sûr, ce produit coûte un peu plus cher. Mais s’il dure deux fois plus longtemps et qu’il peut être réparé localement, je préfère payer davantage au départ plutôt que le remplacer tous les deux ans.",
+    "options": [
+      "Parce qu’elle aime les produits chers.",
+      "Parce qu’elle privilégie la durabilité et la réparabilité.",
+      "Parce qu’elle reçoit une réduction.",
+      "Parce qu’elle veut remplacer le produit souvent."
+    ],
+    "answer": 1,
+    "analysis": "价值取向题。价格更高只是让步，真正理由是耐用和可维修。",
+    "key": [
+      "coûte plus cher = 承认缺点。",
+      "Mais = 转折。",
+      "dure plus longtemps + réparé localement = 价值理由。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 把‘愿意多付’误解成‘喜欢贵’。",
+      "C 未提及。",
+      "D 与原文相反。"
+    ],
+    "mistakeMap": {
+      "0": "误解动机",
+      "2": "无依据推断",
+      "3": "理解方向相反"
+    },
+    "tip": "动机题不要把行为表面（多付钱）当成动机本身，要找背后的价值理由。"
+  },
+  {
+    "id": 44,
+    "level": "A",
+    "theme": "采访",
+    "type": "条件性观点",
+    "question": "Dans quelle situation le système serait-il réellement efficace selon l’expert ?",
+    "text": "L’outil peut faire gagner beaucoup de temps, mais seulement si les données saisies au départ sont fiables. Sinon, on automatise simplement des erreurs à plus grande vitesse.",
+    "options": [
+      "Quand il remplace tous les employés.",
+      "Quand les données de départ sont fiables.",
+      "Quand il fonctionne sans contrôle.",
+      "Quand on l’utilise le plus vite possible."
+    ],
+    "answer": 1,
+    "analysis": "条件性观点题。",
+    "key": [
+      "mais seulement si = 强限定。",
+      "données fiables = 成效条件。",
+      "Sinon = 条件不满足时的负面结果。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 都把工具能力绝对化。"
+    ],
+    "mistakeMap": {
+      "0": "过度推断技术作用",
+      "2": "忽略条件",
+      "3": "忽略条件"
+    },
+    "tip": "only if / seulement si 是高级听力非常关键的条件信号。"
+  },
+  {
+    "id": 45,
+    "level": "A",
+    "theme": "新闻",
+    "type": "趋势判断",
+    "question": "Quelle tendance décrit le journaliste ?",
+    "text": "Le nombre total de déplacements n’a presque pas changé cette année. En revanche, les trajets en voiture ont diminué tandis que ceux effectués à vélo et en transport collectif ont progressé.",
+    "options": [
+      "Les habitants se déplacent beaucoup moins.",
+      "La mobilité totale est stable mais les modes de transport changent.",
+      "La voiture progresse plus vite que le vélo.",
+      "Tous les modes de transport diminuent."
+    ],
+    "answer": 1,
+    "analysis": "趋势结构题：总量稳定，结构变化。",
+    "key": [
+      "nombre total... presque pas changé = 总量稳定。",
+      "En revanche = 结构变化。",
+      "voiture diminué / vélo transport collectif progressé = 模式转移。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 把结构变化误读成总量下降。",
+      "C、D 与数据方向相反。"
+    ],
+    "mistakeMap": {
+      "0": "总量与结构混淆",
+      "2": "趋势方向错误",
+      "3": "趋势方向错误"
+    },
+    "tip": "数据新闻题一定区分‘总量’和‘构成’，这是常见高阶考点。"
+  },
+  {
+    "id": 46,
+    "level": "A",
+    "theme": "公共广播",
+    "type": "优先级",
+    "question": "À qui s’adresse en priorité l’annonce ?",
+    "text": "En raison de la forte chaleur, la municipalité ouvre plusieurs salles climatisées. Les personnes âgées, isolées ou souffrant de maladies chroniques sont invitées à contacter le numéro indiqué si elles ont besoin d’aide.",
+    "options": [
+      "Aux touristes.",
+      "Aux personnes vulnérables à la chaleur.",
+      "Aux employés municipaux.",
+      "Aux commerçants."
+    ],
+    "answer": 1,
+    "analysis": "受众定位题。",
+    "key": [
+      "forte chaleur = 背景。",
+      "personnes âgées, isolées, maladies chroniques = 明确目标群体。",
+      "si elles ont besoin d’aide = 服务对象。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A、C、D 都没有被点名。"
+    ],
+    "mistakeMap": {
+      "0": "用场景联想代替文本",
+      "2": "主体混淆",
+      "3": "用场景联想代替文本"
+    },
+    "tip": "问‘谁是主要对象’时，优先找被直接列举的人群。"
+  },
+  {
+    "id": 47,
+    "level": "A",
+    "theme": "职场",
+    "type": "妥协方案",
+    "question": "Quel compromis propose la directrice ?",
+    "text": "Je comprends que l’équipe souhaite davantage de télétravail, mais nous devons aussi assurer une présence minimale au bureau. Je propose donc deux jours fixes sur place et trois jours flexibles.",
+    "options": [
+      "Cinq jours au bureau.",
+      "Cinq jours en télétravail.",
+      "Deux jours obligatoires au bureau et trois jours flexibles.",
+      "Un seul jour de travail par semaine."
+    ],
+    "answer": 2,
+    "analysis": "妥协方案题。",
+    "key": [
+      "je comprends... mais = 平衡双方需求。",
+      "Je propose donc = 最终方案。",
+      "deux jours fixes + trois jours flexibles = 妥协结构。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A、B 都是极端方案。",
+      "D 无依据。"
+    ],
+    "mistakeMap": {
+      "0": "忽略妥协信息",
+      "1": "忽略妥协信息",
+      "3": "无依据推断"
+    },
+    "tip": "妥协题通常用 mais / donc / je propose 把两端需求合并成中间方案。"
+  },
+  {
+    "id": 48,
+    "level": "A",
+    "theme": "广播评论",
+    "type": "隐含批评",
+    "question": "Que critique surtout le chroniqueur ?",
+    "text": "La campagne a beaucoup insisté sur le lancement spectaculaire du programme. En revanche, on a très peu expliqué comment les résultats seraient mesurés dans six mois. C’est pourtant ce qui permettra de savoir si l’argent a été bien utilisé.",
+    "options": [
+      "Le manque de publicité.",
+      "L’absence d’objectifs financiers.",
+      "Le manque d’explication sur l’évaluation des résultats.",
+      "Le nombre trop élevé de participants."
+    ],
+    "answer": 2,
+    "analysis": "隐含批评题。不是批评项目本身，而是批评缺少评估机制说明。",
+    "key": [
+      "beaucoup insisté sur lancement = 宣传充分。",
+      "très peu expliqué comment les résultats seraient mesurés = 批评点。",
+      "pourtant = 强调重要性。"
+    ],
+    "correctWhy": "C 正确。",
+    "distractors": [
+      "A 与第一句相反。",
+      "B、D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "理解方向相反",
+      "1": "无依据推断",
+      "3": "无依据推断"
+    },
+    "tip": "批评题要定位说话人认为‘缺少/不足’的部分，而不是整段最显眼的名词。"
+  },
+  {
+    "id": 49,
+    "level": "A",
+    "theme": "消费政策",
+    "type": "比较",
+    "question": "Quel avantage du nouvel abonnement est mis en avant ?",
+    "text": "Le nouvel abonnement est légèrement plus cher chaque mois, mais il peut être suspendu jusqu’à trois mois sans frais, alors que l’ancienne formule obligeait à payer même pendant une longue absence.",
+    "options": [
+      "Il coûte moins cher.",
+      "Il permet de suspendre temporairement le paiement.",
+      "Il offre trois mois gratuits chaque année.",
+      "Il ne peut jamais être résilié."
+    ],
+    "answer": 1,
+    "analysis": "新旧方案比较题。",
+    "key": [
+      "légèrement plus cher = 价格不是优势。",
+      "mais = 真正优势开始。",
+      "suspendu... sans frais = 核心优势。"
+    ],
+    "correctWhy": "B 正确。",
+    "distractors": [
+      "A 与原文相反。",
+      "C 把暂停缴费误读为免费赠送。",
+      "D 未提及。"
+    ],
+    "mistakeMap": {
+      "0": "忽略比较关系",
+      "2": "概念偷换",
+      "3": "无依据推断"
+    },
+    "tip": "比较题要区分‘更贵/更便宜’和‘灵活性更高’等不同维度。"
+  },
+  {
+    "id": 50,
+    "level": "A",
+    "theme": "社会报道",
+    "type": "综合主旨",
+    "question": "Quel problème le reportage met-il surtout en évidence ?",
+    "text": "De plus en plus de services administratifs sont accessibles en ligne, ce qui simplifie les démarches pour beaucoup de personnes. Mais pour celles qui maîtrisent mal le numérique, la disparition progressive des guichets crée de nouvelles difficultés. Plusieurs associations demandent donc le maintien d’un accompagnement humain.",
+    "options": [
+      "Les services en ligne sont toujours plus compliqués.",
+      "La numérisation facilite certaines démarches mais peut exclure certains usagers.",
+      "Les associations souhaitent supprimer les services en ligne.",
+      "Les guichets administratifs sont plus rapides que tous les services numériques."
+    ],
+    "answer": 1,
+    "analysis": "综合主旨题：数字化带来便利，同时产生数字排斥问题。",
+    "key": [
+      "simplifie... pour beaucoup = 正面影响。",
+      "Mais = 另一面。",
+      "maîtrisent mal le numérique = 受影响群体。",
+      "maintien d’un accompagnement humain = 应对建议。"
+    ],
+    "correctWhy": "B 正确，完整覆盖便利与排斥两面。",
+    "distractors": [
+      "A 绝对化且与前半段矛盾。",
+      "C 把‘保留人工支持’歪曲成‘取消线上服务’。",
+      "D 文中没有速度比较。"
+    ],
+    "mistakeMap": {
+      "0": "忽略双面结构",
+      "2": "歪曲建议",
+      "3": "无依据比较"
+    },
+    "tip": "综合主旨题优先选择能够同时覆盖‘好处 + 问题 + 结论’的选项。"
+  }
+]

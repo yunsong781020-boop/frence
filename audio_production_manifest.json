@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "file": "q01.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Bonjour madame. Votre rendez-vous était prévu à dix heures, mais le médecin doit assister à une réunion imprévue. Nous pouvons vous recevoir à onze heures quinze."
+  },
+  {
+    "id": 2,
+    "file": "q02.mp3",
+    "genre": "message/annonce",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Bonjour, j’ai reçu ma commande ce matin. Tout est en bon état, mais il manque la ceinture qui devait être livrée avec le manteau. Je voudrais savoir si vous pouvez me l’envoyer séparément."
+  },
+  {
+    "id": 3,
+    "file": "q03.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "En raison de travaux sur l’avenue Victor-Hugo, la ligne vingt-quatre ne desservira pas l’arrêt République jusqu’à vendredi soir. Merci d’utiliser l’arrêt provisoire situé rue Pasteur."
+  },
+  {
+    "id": 4,
+    "file": "q04.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Vendredi, je devais travailler au bureau toute la journée. Finalement, la réunion du matin a été annulée, donc je resterai chez moi jusqu’à midi et je viendrai au bureau l’après-midi."
+  },
+  {
+    "id": 5,
+    "file": "q05.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "L’entrée au festival coûte douze euros. Elle est gratuite pour les moins de douze ans, à condition d’être accompagnés d’un adulte."
+  },
+  {
+    "id": 6,
+    "file": "q06.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le loyer est de huit cent cinquante euros par mois. Le chauffage et l’eau sont compris, mais l’électricité reste à la charge du locataire."
+  },
+  {
+    "id": 7,
+    "file": "q07.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Je ne suis pas opposée au projet en lui-même. Il répond à un vrai besoin. En revanche, le calendrier me paraît beaucoup trop ambitieux, et je crains qu’on sacrifie la qualité pour aller plus vite."
+  },
+  {
+    "id": 8,
+    "file": "q08.mp3",
+    "genre": "reportage",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Depuis six mois, la ville expérimente la livraison de colis par vélos-cargos dans le centre. Le dispositif réduit le nombre de camionnettes, mais les entreprises demandent davantage de zones de chargement pour que le système fonctionne à grande échelle."
+  },
+  {
+    "id": 9,
+    "file": "q09.mp3",
+    "genre": "document divers",
+    "level": "A",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Toute annulation effectuée au moins soixante-douze heures avant le départ donne droit à un remboursement intégral. Entre soixante-douze et vingt-quatre heures, seuls cinquante pour cent sont remboursés. Après ce délai, aucun remboursement n’est possible."
+  },
+  {
+    "id": 10,
+    "file": "q10.mp3",
+    "genre": "micro-trottoir",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Sur le principe, l’idée me plaît beaucoup, et le coût reste raisonnable. Ce qui me retient, c’est surtout que je devrais m’engager pour une année entière sans savoir si mon emploi du temps restera le même."
+  },
+  {
+    "id": 11,
+    "file": "q11.mp3",
+    "genre": "message répondeur",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Bonjour, ici le cabinet du docteur Martin. Nous avons bien reçu vos résultats. Merci de nous rappeler avant vendredi afin de fixer un rendez-vous de suivi."
+  },
+  {
+    "id": 12,
+    "file": "q12.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Pour le menu de ce soir, le saumon est malheureusement épuisé. Nous pouvons vous proposer à la place le poulet rôti ou le risotto aux champignons."
+  },
+  {
+    "id": 13,
+    "file": "q13.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La réunion des parents devait se tenir dans la salle polyvalente. Comme elle est en travaux, nous vous accueillerons finalement à la bibliothèque, au premier étage."
+  },
+  {
+    "id": 14,
+    "file": "q14.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La réparation coûte normalement quatre-vingt-dix euros, mais votre appareil est encore sous garantie. Vous n’aurez donc que les frais de transport, soit quinze euros, à payer."
+  },
+  {
+    "id": 15,
+    "file": "q15.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "En raison du verglas prévu cette nuit, les autorités recommandent d’éviter les déplacements non essentiels avant neuf heures demain matin."
+  },
+  {
+    "id": 16,
+    "file": "q16.mp3",
+    "genre": "micro-trottoir",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Je sais que supprimer des places de stationnement ne plaît pas à tout le monde. Mais si cela permet aux enfants d’aller à l’école à vélo en sécurité, je pense que le sacrifice est acceptable."
+  },
+  {
+    "id": 17,
+    "file": "q17.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Les commandes augmentent, ce qui est évidemment une bonne nouvelle. Mon inquiétude, c’est que nous avons du mal à recruter assez vite pour suivre ce rythme sans épuiser l’équipe actuelle."
+  },
+  {
+    "id": 18,
+    "file": "q18.mp3",
+    "genre": "chronique radio",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Les chiffres du trimestre sont meilleurs que prévu, mais il serait prématuré d’y voir un retournement durable. Une partie de l’amélioration vient de mesures temporaires qui prendront fin cet hiver."
+  },
+  {
+    "id": 19,
+    "file": "q19.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Je ne remets pas en cause la qualité de votre travail. En revanche, j’aimerais que vous me préveniez plus tôt lorsqu’un délai risque de ne pas être respecté."
+  },
+  {
+    "id": 20,
+    "file": "q20.mp3",
+    "genre": "conversation",
+    "level": "A",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le propriétaire accepte de renouveler le bail au même prix, à condition que les locataires prennent désormais en charge l’entretien du jardin."
+  },
+  {
+    "id": 21,
+    "file": "q21.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le vol pour Montréal partira bien à l’heure prévue, mais l’embarquement se fera porte trente-deux au lieu de la porte dix-huit."
+  },
+  {
+    "id": 22,
+    "file": "q22.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Si la douleur reste légère, prenez ce médicament après les repas. En revanche, si la fièvre dépasse trente-neuf degrés, consultez rapidement un médecin."
+  },
+  {
+    "id": 23,
+    "file": "q23.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La piscine municipale restera fermée lundi et mardi pour entretien. Elle accueillera de nouveau le public à partir de mercredi matin."
+  },
+  {
+    "id": 24,
+    "file": "q24.mp3",
+    "genre": "document divers",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le cours avancé est réservé aux personnes ayant déjà suivi le niveau intermédiaire ou pouvant justifier d’un niveau équivalent lors du test d’entrée."
+  },
+  {
+    "id": 25,
+    "file": "q25.mp3",
+    "genre": "message/consigne",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Avant de préparer la présentation de demain, merci de répondre au client qui attend notre confirmation depuis hier. Le reste peut attendre cet après-midi."
+  },
+  {
+    "id": 26,
+    "file": "q26.mp3",
+    "genre": "micro-trottoir",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Je comprends pourquoi la ville veut limiter la circulation. Pourtant, appliquer la même règle à tous les quartiers me semble un peu simpliste, car les besoins ne sont pas les mêmes partout."
+  },
+  {
+    "id": 27,
+    "file": "q27.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Nous n’avons pas moins de travail, au contraire. Mais les demandes arrivent désormais de façon beaucoup plus irrégulière. Nous devons donc rendre les horaires plus flexibles pour éviter d’avoir trop de personnel certains jours et pas assez d’autres jours."
+  },
+  {
+    "id": 28,
+    "file": "q28.mp3",
+    "genre": "chronique radio",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "On présente souvent le télétravail comme une solution écologique évidente. C’est parfois vrai, mais pas systématiquement : si chacun habite plus loin de son entreprise et se déplace davantage le week-end, le bilan peut être moins favorable qu’on ne le pense."
+  },
+  {
+    "id": 29,
+    "file": "q29.mp3",
+    "genre": "reportage",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Les ventes ont progressé de huit pour cent cette année. Toutefois, cette hausse vient surtout des achats en ligne, tandis que les ventes en magasin sont restées presque stables."
+  },
+  {
+    "id": 30,
+    "file": "q30.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le programme pourrait être étendu à toute la région dès l’an prochain. Encore faut-il que les communes trouvent suffisamment de personnel formé, ce qui est loin d’être garanti aujourd’hui."
+  },
+  {
+    "id": 31,
+    "file": "q31.mp3",
+    "genre": "annonce publique",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le petit-déjeuner est servi normalement jusqu’à dix heures. En revanche, la piscine restera fermée ce matin pour un contrôle technique et rouvrira à quatorze heures."
+  },
+  {
+    "id": 32,
+    "file": "q32.mp3",
+    "genre": "document divers",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Pour ouvrir le compte, il vous faudra une pièce d’identité et un justificatif de domicile de moins de trois mois. Aucun rendez-vous n’est nécessaire."
+  },
+  {
+    "id": 33,
+    "file": "q33.mp3",
+    "genre": "message/annonce",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Votre colis devait être livré mardi, mais le transporteur nous informe d’un retard de vingt-quatre heures. La livraison est donc prévue mercredi."
+  },
+  {
+    "id": 34,
+    "file": "q34.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La séance de dix-huit heures est complète. Celle de vingt heures est encore disponible, mais je travaille tôt demain. Je vais donc prendre la séance de seize heures trente."
+  },
+  {
+    "id": 35,
+    "file": "q35.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Les premiers résultats sont encourageants, mais l’échantillon reste trop limité pour tirer des conclusions solides. Il faut donc éviter de présenter cette étude comme une preuve définitive."
+  },
+  {
+    "id": 36,
+    "file": "q36.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "L’ancienne procédure était plus rapide, mais elle produisait trop d’erreurs difficiles à corriger ensuite. Nous avons choisi un système un peu plus long au départ, mais plus fiable."
+  },
+  {
+    "id": 37,
+    "file": "q37.mp3",
+    "genre": "micro-trottoir",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Depuis qu’ils ont élargi les trottoirs, c’est beaucoup plus agréable de marcher ici. En revanche, aux heures de livraison, les camions bloquent parfois toute la rue. Il faudrait mieux organiser ces créneaux."
+  },
+  {
+    "id": 38,
+    "file": "q38.mp3",
+    "genre": "chronique radio",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La demande a commencé à ralentir, ce qui devrait normalement faire baisser les prix. Pourtant, les coûts de transport restent très élevés et plusieurs fournisseurs ont réduit leur production."
+  },
+  {
+    "id": 39,
+    "file": "q39.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Nous ne voulons pas réduire le nombre d’heures de cours. L’idée est plutôt de regrouper certaines séances afin de libérer une demi-journée pour les projets en équipe."
+  },
+  {
+    "id": 40,
+    "file": "q40.mp3",
+    "genre": "document divers",
+    "level": "A",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Des frais de dix euros sont normalement appliqués pour toute modification effectuée moins de vingt-quatre heures avant le rendez-vous. Ils ne seront toutefois pas facturés en cas d’urgence médicale justifiée."
+  },
+  {
+    "id": 41,
+    "file": "q41.mp3",
+    "genre": "conversation",
+    "level": "M+",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le déjeuner est servi jusqu’à quatorze heures trente. La cuisine ferme ensuite pendant deux heures et le service du soir commence à seize heures trente."
+  },
+  {
+    "id": 42,
+    "file": "q42.mp3",
+    "genre": "message/consigne",
+    "level": "M+",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Votre véhicule a passé le contrôle, mais un feu arrière doit être remplacé. Vous disposez de quinze jours pour effectuer la réparation, puis vous devrez revenir pour une vérification gratuite."
+  },
+  {
+    "id": 43,
+    "file": "q43.mp3",
+    "genre": "micro-trottoir",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Bien sûr, ce produit coûte un peu plus cher. Mais s’il dure deux fois plus longtemps et qu’il peut être réparé localement, je préfère payer davantage au départ plutôt que le remplacer tous les deux ans."
+  },
+  {
+    "id": 44,
+    "file": "q44.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "L’outil peut faire gagner beaucoup de temps, mais seulement si les données saisies au départ sont fiables. Sinon, on automatise simplement des erreurs à plus grande vitesse."
+  },
+  {
+    "id": 45,
+    "file": "q45.mp3",
+    "genre": "reportage",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le nombre total de déplacements n’a presque pas changé cette année. En revanche, les trajets en voiture ont diminué tandis que ceux effectués à vélo et en transport collectif ont progressé."
+  },
+  {
+    "id": 46,
+    "file": "q46.mp3",
+    "genre": "annonce publique",
+    "level": "A",
+    "voice_standard": "公共广播/电话留言声线；真实停顿",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "En raison de la forte chaleur, la municipalité ouvre plusieurs salles climatisées. Les personnes âgées, isolées ou souffrant de maladies chroniques sont invitées à contacter le numéro indiqué si elles ont besoin d’aide."
+  },
+  {
+    "id": 47,
+    "file": "q47.mp3",
+    "genre": "interview",
+    "level": "A",
+    "voice_standard": "两位自然法语说话人；男女声交替，非播音腔",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Je comprends que l’équipe souhaite davantage de télétravail, mais nous devons aussi assurer une présence minimale au bureau. Je propose donc deux jours fixes sur place et trois jours flexibles."
+  },
+  {
+    "id": 48,
+    "file": "q48.mp3",
+    "genre": "chronique radio",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "La campagne a beaucoup insisté sur le lancement spectaculaire du programme. En revanche, on a très peu expliqué comment les résultats seraient mesurés dans six mois. C’est pourtant ce qui permettra de savoir si l’argent a été bien utilisé."
+  },
+  {
+    "id": 49,
+    "file": "q49.mp3",
+    "genre": "document divers",
+    "level": "A",
+    "voice_standard": "自然生活对话声线；按场景安排一至两位说话人",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "Le nouvel abonnement est légèrement plus cher chaque mois, mais il peut être suspendu jusqu’à trois mois sans frais, alors que l’ancienne formule obligeait à payer même pendant une longue absence."
+  },
+  {
+    "id": 50,
+    "file": "q50.mp3",
+    "genre": "reportage",
+    "level": "A",
+    "voice_standard": "自然广播/记者声线；清晰但不刻意慢读",
+    "pace": "TEF自然语速的约90–95%",
+    "script": "De plus en plus de services administratifs sont accessibles en ligne, ce qui simplifie les démarches pour beaucoup de personnes. Mais pour celles qui maîtrisent mal le numérique, la disparition progressive des guichets crée de nouvelles difficultés. Plusieurs associations demandent donc le maintien d’un accompagnement humain."
+  }
+]
